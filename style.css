@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:800px) {
+    .col-sm-6 { 
+        align-items: center; 
+    }
+}
+
+@media screen and (min-width:800px) {
+    .vl {
+        border-left: 2px solid rgb(25, 160, 108);
+        height: 400px;
+        position: absolute;
+        left: 50%;
+        margin-left: -3px;
+        margin-top: 8%;
+        top: 0; 
+    } 
+}
+
+table {  
+    width: 50%;
+    margin-right: 40%;
+    border: 1px solid rgb(123, 173, 6);
+    font-size: 12px;
+    padding: 10px;
+    text-decoration: rgb(17, 94, 160);
+}
+
+th {
+    color: white;
+    background-color: rgb(160, 216, 29);
+    text-align: left;
+    border: 1px solid rgb(123, 173, 6); 
+}
+
+td {
+    text-align: left;
+    border: 1px solid rgb(123, 173, 6); 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 4px;
+    height:100px;
+    width: 95px;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(180, 222, 84);
+}
+.form-group {
+    padding-left: 15%;
+    padding-right: 15%; 
+}
+.Buttons {
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.navbar {
+    background-color: rgb(25, 160, 108);
+}
+ 
+.show {
+    opacity: 1;
+    transition: opacity 1000ms;
+  }
+  
+.hide{
+    opacity: 0;
+    transition: opacity 1000ms;
+}
